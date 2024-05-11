@@ -3,16 +3,16 @@ import { WALLET_ADDRESS, sdk } from './utils/constants';
 const createListing = async () => {
 
     // TODO: Fill in the token address and token ID of the NFT you want to sell, as well as the price
-    let tokenAddress: string = "";
-    let tokenId: string = "";
-    let listingAmount: string = "";
+    let tokenAddress: string = "0xA2D9Ded6115b7B7208459450D676f0127418ae7A";
+    let tokenId: string = "7815183720294688140022219208829383483";
+    let listingAmount: string = ".000000000000000009 MATIC";
 
     const listing = {
-        accountAddress: WALLET_ADDRESS,
-        startAmount: listingAmount,
+        accountAddress: WALLET_ADDRESS,0xacc...88b9
+        startAmount: listingAmount,.000000000000000009 MATIC
         asset: {
-            tokenAddress: tokenAddress,
-            tokenId: tokenId,
+            tokenAddress: tokenAddress,0xA2D9Ded6115b7B7208459450D676f0127418ae7A
+            tokenId: tokenId,7815183720294688140022219208829383483
         },
     };
 
