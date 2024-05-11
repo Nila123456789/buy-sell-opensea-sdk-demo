@@ -8,22 +8,20 @@ const createListing = async () => {
     let listingAmount: string = "";
 
     const listing = {
-        accountAddress: WALLET_ADDRESS,
-        startAmount: listingAmount,
+        accountAddress: WALLET_ADDRESS,0xacc...88b9
+        startAmount: listingAmount,.000000000000000009
         asset: {
-            tokenAddress: tokenAddress,
-            tokenId: tokenId,
+            tokenAddress: tokenAddress,0xA2D9Ded6115b7B7208459450D676f0127418ae7A
+            tokenId: tokenId,781518372029468814002221920882938
         },
     };
-
-    try {
+ try {
         const response = await sdk.createListing(listing);
         console.log("Successfully created a listing with orderHash:", response.orderHash);
     } catch (error) {
         console.error("Error in createListing:", error);
     }
 }
-
 // Check if the module is the main entry point
 if (require.main === module) {
     // If yes, run the createOffer function
@@ -32,4 +30,5 @@ if (require.main === module) {
     });
 }
 
-export default createListing;
+export default createListing;npm run createListing
+
