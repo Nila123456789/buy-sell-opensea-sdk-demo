@@ -8,13 +8,13 @@ const createListing = async () => {
     let listingAmount: string = "";
 
     const listing = {
-        accountAddress: WALLET_ADDRESS,
-        startAmount: listingAmount,
+        accountAddress: 0xacc85f50682c4fe34a02851bd48854a50d3c88b9,
+        startAmount: .00000000000000009 MATIC,
         asset: {
-            tokenAddress: tokenAddress,
-            tokenId: tokenId,
+            tokenAddress: 0xA2D9Ded6115b7B7208459450D676f0127418ae7A,
+            tokenId: 78151837202946881400222192088293834830187427,
         },
-    };
+            };
 
     try {
         const response = await sdk.createListing(listing);
